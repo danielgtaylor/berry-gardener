@@ -1,0 +1,25 @@
+doctype
+
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        title= page.title || config.title
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/style.css")
+
+    body
+        #container
+            div#logo: a(href="/"): h1 Berry Gardener
+            nav
+                ol
+                    li: a(href="/") Posts
+                    li: a(href="/plants/") Plants
+                    li: a(href="/about/") About
+            != body
+            #footer
+                p &copy; 2016 Daniel G. Taylor - Having fun with science-based gardening!
+
+        #overlay
+          img(src="")
+        script(src="/js/berries.js")

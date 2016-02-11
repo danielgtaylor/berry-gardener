@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:400,700');
+
+body
+    color black
+    background-color white
+    font-family 'Open Sans', 'Helvetica', sans-serif
+    font-height 16px
+    letter-spacing 0.7px
+    line-height 1.4
+    margin 0
+
+h1, h2, h3
+    font-family 'Amatic SC', cursive
+    font-weight normal
+    padding 0
+    margin 0
+
+h2, h3, h4, h5, h6
+    a.header-anchor
+      display inline-block
+      color black
+      opacity 0
+      transition opacity 0.4s ease
+
+    &:hover a.header-anchor
+        opacity 1
+
+h1
+    font-size 36pt
+
+h2
+    font-size 32pt
+    margin-left -32px
+
+    a.header-anchor
+      width 22px
+      margin-right 6px
+
+h3
+    font-size 24pt
+    margin-left -24px
+
+    a.header-anchor
+      width 18px
+      margin-right 4px
+
+h4
+    font-size 12pt
+    margin-left -18px
+
+    a.header-anchor
+      width 12px
+      margin-right 4px
+
+a
+    color #e84436
+    text-decoration none
+
+table
+    margin auto
+
+td, th
+    padding 0.15em 0.5em
+
+th
+    color white
+    background #666
+    border-radius 3px
+
+tr:nth-child(even)
+    background #eee
+
+blockquote
+    background #f8f8f8
+    border-left 3px solid #ccc
+    margin 1.5em
+    padding 1px 12px
+    quotes: "\201C""\201D""\2018""\2019"
+    border-radius 3px
+
+.bad
+    color #e52f1f
+
+.okay
+    color #e89d36
+
+.good
+    color #17cc80
+
+#overlay
+    opacity 0
+    pointer-events none
+    position fixed
+    top 0
+    left 0
+    z-index 999
+    width 100%
+    height 100%
+    background rgba(0, 0, 0, 0.8)
+    transition opacity 0.3s ease-in
+
+    &.show
+        opacity 1
+        pointer-events auto
+        transition opacity 0.3s ease-out
+
+    img
+        position relative
+        max-width 100%
+        max-height 100%
+        top 0px
+
+#container
+    margin 0 auto
+
+#logo
+    display block
+    width 100%
+    height 200px
+    background url(/img/berries-on-wood.jpg) center -560px no-repeat
+    margin auto
+    border-bottom-left-radius 5px
+    border-bottom-right-radius 5px
+
+    h1
+        color white
+        font-family 'Amatic SC', cursive
+        font-size 68pt
+        padding-top 14px
+        padding-left 42px
+        margin 0
+        text-shadow 1px 1px 1px rgba(0, 0, 0, 0.5)
+
+nav
+    font-family 'Amatic SC', cursive
+    font-size 22pt
+    letter-spacing 1.5px
+    margin-left 72px
+    margin-top -82px
+    margin-bottom 10px
+
+    ol
+        list-style-type none
+        text-align left
+        padding 0
+        margin 0
+
+    li
+        display inline-block
+        padding 18px 0
+
+    a
+        color white
+        text-decoration none
+        text-shadow 1px 1px 1px rgba(0, 0, 0, 0.5)
+        padding 18px 22px
+        transition color 0.4s ease-in-out
+
+        &:hover
+            color #e84436
+
+.row
+    margin-top 12px
+    margin-bottom 12px
+
+.column
+    margin-right 24px
+
+.strip img
+    cursor pointer
+    display inline
+    max-height 120px
+    border-radius 0
+    padding 0
+    margin 0
+
+    &.zoomed
+        position fixed
+        z-index 999
+        top 0
+        left 0
+        left 25%
+        max-height 100%
+        max-width 100%
+
+.clear
+    clear both
+
+.info
+    width 18%
+    float right
+
+    h2
+        font-family 'Amatic SC', cursive
+        font-size 36pt
+        font-weight normal
+        margin 0
+
+    ul
+        list-style-type none
+        padding 0
+        margin 0
+
+        li a
+            margin-right 8px
+
+    .books
+        text-align center
+
+        .book
+            font-size 75%
+
+.posts, .page
+    width 80%
+
+article
+    header
+        .title
+            font-family 'Amatic SC', cursive
+            font-size 36pt
+            font-weight normal
+            margin 0
+
+        .tags
+            opacity 0.25
+
+            .tag
+                color white
+                background-color #23818E
+                font-size 72%
+                padding 0.15em 0.5em
+                margin-right 0.2em
+                border-radius 3px
+
+    img
+        display block
+        max-width 100%
+        margin-left auto
+        margin-right auto
+        border-radius 3px
+
+.note
+    background #f9edda
+    padding 12px
+    margin 24px
+    border 1px solid #f6e4c9
+    border-radius 5px
+
+.page-nav
+    text-align center
+
+    span, a
+        margin 0 6px
+
+.post
+    .date
+        font-size 80%
+
+    .content
+        width 70%
+
+    .menu
+        float right
+        width 28%
+
+#footer
+    text-align center
+    color #ccc
+
+// Responsive thresholds: 480, 768, 1024
+@media screen and (min-width: 1024px)
+    #container
+        width 960px
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+    #container
+        width 768px
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+    #container
+        width 92%
+
+@media screen and (max-width: 479px)
+    #container
+        width 92%

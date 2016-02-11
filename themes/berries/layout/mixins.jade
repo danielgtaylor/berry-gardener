@@ -1,0 +1,49 @@
+mixin Article(article)
+  article(id=article.slug itemscope itemprop="blogPost")
+    if article.title
+      header
+        h1.title(itemprop="name"): a(href=article.permalink)= article.title
+        .tags
+          span
+            | Posted on&nbsp;
+            time(datetime=date_xml(article.date) itemprop="datePublished")
+              = article.date.format('D MMM YYYY')
+            | &nbsp;
+          each tag in article.tags && article.tags.toArray() || []
+            a.tag(href='/tags/' + tag.name)= tag.name
+            = ' '
+    div!= article.content
+
+mixin SideBar()
+  .info
+    h2 Categories
+    != list_tags()
+    h2 Read More
+    ul.books
+      li: a(href="http://amzn.to/1W7rXRI")
+        img(title="The Informed Gardener by Linda Chalker-Scott" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0295987901&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=bibvicom-20")
+        br
+        span.book The Informed Gardener
+        br
+        br
+      li: a(href="http://amzn.to/1SEsTiE")
+        img(title="How Plants Work: The science behind the amazing things plants do by Linda Chalker-Scott" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=160469338X&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=bibvicom-20")
+        br
+        span.book How Plants Work
+        br
+        br
+      li: a(href="http://amzn.to/1Xe1Cm0")
+        img(title="Decoding Gardening Advice: The science behind the 100 most common recommendations by Jeff Gillman" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1604692200&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=bibvicom-20")
+        br
+        span.book Decoding Gardening Advice
+        br
+        br
+
+mixin Archive()
+  +SideBar()
+  .posts
+    each post in page.posts.toArray()
+      +Article(post)
+      if page.total > 1
+        .page-nav
+          != paginator({prev_text: '&laquo; Newer', next_text: 'Older &raquo;'})
