@@ -4,6 +4,8 @@ Currants are bushes that grow strigs of small blueberry-sized berries that are s
 
 ![Different kinds of currants](./currants.jpg)
 
+Currants are very popular in Europe, but hardly available commercially in the U.S. due mostly to a federal ban on growing them enacted in 1920. In 1966 the federal ban was lifted, however it is still banned to grow currants in some states because they are an alternate host for white pine blister rust.
+
 Currants can be eaten fresh when fully ripe and make excellent jams, jellies, and juice.
 
 > Ribes is a little bushe ... and in the tops ... are red berries in clusters in taste at the first somethinge sower but pleasant enough when they are fully ripe.
@@ -98,7 +100,7 @@ All dates below are for the Seattle, WA area (maritime pacific zone 8b).
 <div class="plantInfo">
   <div class="row">
     <span class="column">
-      <strong>Botanical Name</strong>: Ribes rubrum L.
+      <strong>Botanical Name</strong>: Ribes spicatum E. Robson
     </span>
     <span class="column">
       <strong>USDA Zones</strong>: 3 - 8
@@ -106,7 +108,7 @@ All dates below are for the Seattle, WA area (maritime pacific zone 8b).
   </div>
   <div class="row">
     <span class="column">
-      <strong>History</strong>: Parentage is Heinemann's Rote Spatlese &#10005; <a href="#red-lake-red-currant">Red Lake</a>, but has lost its red pigment in the berries. Has a neat red pigment in young branches, however. Bred by Dr. Josef Cvopa at Bojnice, Slovakia and released in 1977.
+      <strong>History</strong>: Parentage is Heinemann's Rote Spatlese &#10005; <a href="#red-lake-red-currant">Red Lake</a>, but has lost its red pigment in the berries. Has a neat red pigment in young branches, however. Bred by Dr. Josef Cvopa at Bojnice, Slovakia and released in 1977 from the Research Institute of Fruit and Decorative Trees.
     </span>
   </div>
   <div class="row">
@@ -171,7 +173,7 @@ All dates below are for the Seattle, WA area (maritime pacific zone 8b).
 <div class="plantInfo">
   <div class="row">
     <span class="column">
-      <strong>Botanical Name</strong>: Ribes rubrum L.
+      <strong>Botanical Name</strong>: Ribes spicatum E. Robson
     </span>
     <span class="column">
       <strong>USDA Zones</strong>: 3 - 7

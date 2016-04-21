@@ -13,8 +13,8 @@ A list of plants that I am currently or have grown in the past.
   - [Slitsa](/plants/currant/#slitsa-black-currant)
 - Figs
   - Chicago Hardy
-- Gooseberries
-  - Black Velvet
+- [Gooseberries](/plants/gooseberry/)
+  - [Black Velvet](/plants/gooseberry/#black-velvet-gooseberry)
   - Jeanne
   - Hinnomaki Red
   - Pixwell

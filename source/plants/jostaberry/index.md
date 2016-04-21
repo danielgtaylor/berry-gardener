@@ -18,7 +18,7 @@ All dates below are for the Seattle, WA area (maritime pacific zone 8b).
 <div class="plantInfo">
   <div class="row">
     <span class="column">
-      <strong>Botanical Name</strong>: Ribes &#10005; nidigrolaria
+      <strong>Botanical Name</strong>: Ribes nidigrolaria R. Bauer & A. Bauer
     </span>
     <span class="column">
       <strong>USDA Zones</strong>: 3 - 8
@@ -26,7 +26,7 @@ All dates below are for the Seattle, WA area (maritime pacific zone 8b).
   </div>
   <div class="row">
     <span class="column">
-      <strong>History</strong>: The original jostaberry, developed in the 1950's in Breitbrunn West Germany by Dr. Rudolph Bauer and released in 1977. Open pollinated cross of ('Silvergieters Schwarze' R. nigrum &#10005; 'Grüne Hansa' R. uva-crispa) &#10005; ('Langtraubige Schwarze' R. nigrum &#10005; 'Worcesterberry' R. divaricatum). The process to merge these fruits began in 1883, however ran into problems with fruit set that were eventually solved with a chemical treatment called colchicine.
+      <strong>History</strong>: The original jostaberry, developed in the 1955 in Breitbrunn West Germany by Dr. Rudolph Bauer and released in 1977. Open pollinated F2 cross of ('Silvergieters Schwarze' R. nigrum &#10005; 'Grüne Hansa' R. uva-crispa) &#10005; ('Langtraubige Schwarze' R. nigrum &#10005; R. divaricatum). The process to merge these fruits began in 1883, however ran into problems with fruit set that were eventually solved with a chemical treatment called colchicine.
     </span>
   </div>
   <div class="row">
