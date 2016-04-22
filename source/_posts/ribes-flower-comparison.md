@@ -37,6 +37,10 @@ And here is [Hinnomaki Red](/plants/gooseberry/#hinnomaki-red-gooseberry) for co
 
 {% asset_img hinnomaki-red-gooseberry-flower.jpg Hinnomaki Red goosebery flower %}
 
+Not all gooseberries have reddish petals. Here is [Jeanne](/plants/gooseberry/#jeanne-gooseberry), a new release from the U.S. Agricultural Research Service in Corvallis, Oregon.
+
+{% asset_img jeanne-gooseberry-flower-closeup.jpg Jeanne goosebery flower closeup %}
+
 And finally, here is a quick snapshot from my phone of a wild currant flowering during one of my walks.
 
 {% asset_img wild-currant-flower.jpg Wild currant flower %}
