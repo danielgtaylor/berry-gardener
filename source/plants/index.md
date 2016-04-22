@@ -15,8 +15,8 @@ A list of plants that I am currently or have grown in the past.
   - Chicago Hardy
 - [Gooseberries](/plants/gooseberry/)
   - [Black Velvet](/plants/gooseberry/#black-velvet-gooseberry)
-  - Jeanne
-  - Hinnomaki Red
+  - [Hinnomaki Red](/plants/gooseberry/#hinnomaki-red-gooseberry)
+  - [Jeanne](/plants/gooseberry/#jeanne-gooseberry)
   - Pixwell
 - [Jostaberries](/plants/jostaberry/)
   - [Jostaberry](/plants/jostaberry/#jostaberry)
