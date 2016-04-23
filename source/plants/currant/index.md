@@ -1,6 +1,6 @@
 # Currants
 
-Currants are bushes that grow strigs of small blueberry-sized berries that are sweet tart when ripe. There are two main kinds of currants: red and black. Red currants come in several colors such as red, pink, or white and have a milder flavor. Black currants range from dark purple to jet black and have a unique musky scent in both their leaves and berries.
+Currants are bushes that grow strigs of small blueberry-sized berries that are sweet tart when ripe. There are two main kinds of currants: red and black. Red currants come in several colors such as red, pink, or white and have a milder flavor. Black currants range from dark purple to jet black and have a unique musky scent in both their leaves and berries. All currants require about 1000 - 1200 chill hours to break dormancy and produce fruit.
 
 ![Different kinds of currants](./currants.jpg)
 
