@@ -1,0 +1,27 @@
+include mixins.jade
+
+- var cultivar = page.cultivar
+
++SideBar()
+.page(id=page.slug itemscope itemtype="http://schema.org/ItemPage")
+  h1= cultivar.name + ' (' + cultivar.description.type + ')'
+  .strip
+    each image in cultivar.images
+      img(src=image.url)
+  .plantInfo
+    .row
+      +PropertyColumn('Botanical Name', cultivar.classification)
+      +PropertyColumn('Light', cultivar.light.type.join(' - '))
+      +PropertyColumn('USDA Zones', cultivar.zones.join(' - '))
+      +PropertyColumn('Height', cultivar.habit.height + 'm')
+      +PropertyColumn('Spread', cultivar.habit.spread + 'm')
+      +PropertyColumn('Form', (cultivar.habit.rate ? cultivar.habit.rate + ' ' : '') + ' ' + (cultivar.habit.shape ? cultivar.habit.shape + ' ' : '') + cultivar.habit.form)
+      +PropertyColumn('Pollinators', cultivar.pollinators)
+      +PropertyColumn('Propagation', Object.keys(cultivar.bearing).sort().join(', '))
+      +PropertyColumn('Soil', cultivar.soil.drainage + ' ' + cultivar.soil.types.join(' to ') + ' (pH ' + cultivar.soil.ph.join(' - ') + ')')
+      +MarkdownPropertyColumn('History', cultivar.description.history)
+      +MarkdownPropertyColumn('Flowers', cultivar.description.flower)
+      +MarkdownPropertyColumn('Fruit', cultivar.description.fruit)
+    div(style="margin-top: -12px")
+      span.property: label Calendar
+      +CultivarCalendar(cultivar)

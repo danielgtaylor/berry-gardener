@@ -1,0 +1,24 @@
+include mixins.jade
+
++SideBar()
+article.page(id=page.slug itemscope itemtype="http://schema.org/CollectionPage")
+  h2(id="plants")
+    a.header-anchor(href="#plants") ¶
+    | My Plants
+  each category in page.categories
+    .category
+      a.show(id=category.name href='#' + category.name)= category.name + ' (' + category.cultivars.length + ')'
+      .details
+        != markdown(category.description)
+        if category.cultivars
+          h3
+            a.header-anchor
+            | Varieties
+          ul
+            each cultivar in category.cultivars
+              li: a(href=cultivar.url)= cultivar.name
+  h3(id="berry-harvest-calendar")
+    a.header-anchor(href="#berry-harvest-calendar") ¶
+    | Berry Harvest Calendar
+  +CategoryCalendar(page.categories)
+  a(href="/plants.yml") Download plant data file

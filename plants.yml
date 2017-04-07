@@ -1,0 +1,925 @@
+categories:
+  - name: Blueberry
+    description: >
+      Blueberry plants are upright bushes that produce small to medium sized
+      dark blue berries. They are native to North America.
+
+      Blueberries are excellent eaten fresh when fully ripe and make fantastic
+      pies, syrups, and smoothies.
+    cultivars:
+      - name: Unknown
+        classification: Unknown
+        description:
+          type: blueberry
+          flower: >-
+            White flowers in bunches form from near the tips of branches and
+            shoots in the early spring.
+          fruit: >-
+            Medium-sized, firm sweet blue berries form during summer and fall.
+            Pick frequently as berries ripen over a long period. Berries turn
+            blue well before ripening.
+          history: >
+            Purchased from Home Depot or Lowes in 2012 or 2013 in Seattle. Could
+            be Bluecrop, Blueray, or a handful of other varieties.
+        zones:
+          - 7
+          - 8
+        habit:
+          form: half-high or highbush
+          shape: upright
+          height: 1
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+          drainage: well-drained
+          ph:
+            - 4
+            - 5
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 25 Mar
+              - 10 Apr
+          bloom:
+            color: '#efeee0'
+            range:
+              - 21 Mar
+              - 6 Apr
+          harvest:
+            color: '#2471A3'
+            range:
+              - 3 Jul
+              - 11 Jul
+  - name: Currant
+    description: >
+      Currants are bushes that grow strigs of small blueberry-sized berries that
+      are sweet tart when ripe. There are two main kinds of currants: red and
+      black. Red currants come in several colors such as red, pink, or white and
+      have a milder flavor. Black currants range from dark purple to jet black
+      and have a unique musky scent in both their leaves and berries. All
+      currants require about 1000 - 1200 chill hours to break dormancy and
+      produce fruit.
+
+
+      ![Different kinds of currants](./currant-different-kinds-in-hand.jpg)
+
+
+      Currants are very popular in Europe, but hardly available commercially in
+      the U.S. due mostly to a federal ban on growing them enacted in 1920. In
+      1966 the federal ban was lifted, however it is still banned to grow
+      currants in some states because they are an alternate host for white pine
+      blister rust.
+
+
+      Currants can be eaten fresh when fully ripe and make excellent jams,
+      jellies, and juice.
+
+
+      > Ribes is a little bushe ... and in the tops ... are red berries in
+      clusters in taste at the first somethinge sower but pleasant enough when
+      they are fully ripe.
+
+      >
+
+      > -- <cite>William Turner, 1568</cite>
+    cultivars:
+      - name: Pink Champagne
+        classification: Ribes rubrum L.
+        description:
+          type: red currant
+          flower: Strigs of white/green flowers form at buds in Spring.
+          fruit: >-
+            Strigs of firm translucent pink to white berries. Less tart than a
+            typical red currant. Yield is a bit lower than most red currants.
+          history: >
+            Unknown parentage, probably common red &#10005; common white.
+            Antique European variety possibly from France.
+        zones:
+          - 3
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          rate: vigorous
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 6
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 17 Mar
+              - 2 Apr
+          bloom:
+            color: '#efeee0'
+            range:
+              - 10 Apr
+              - 25 Apr
+          harvest:
+            color: '#FA8072'
+            range:
+              - 3 Jul
+              - 11 Jul
+      - name: Primus
+        classification: Ribes spicatum E. Robson
+        description:
+          type: red currant
+          flower: Strigs of white/green flowers form at buds in Spring.
+          fruit: >-
+            Strigs of firm translucent white berries. Less tart than a typical
+            red currant. Sweet and high in vitamin C.
+          history: >
+            Parentage is Heinemann's Rote Spatlese ✕ <a
+            href="/plants/currant/red-lake/">Red Lake</a>, but has lost its red
+            pigment in the berries. Has a neat red pigment in young branches,
+            however. Bred by Dr. Josef Cvopa at Bojnice, Slovakia and released
+            in 1977 from the Research Institute of Fruit and Decorative Trees.
+        zones:
+          - 3
+          - 8
+        habit:
+          form: bush
+          shape: upright
+          rate: vigorous
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 6
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 28 Mar
+              - 20 Apr
+          bloom:
+            color: '#efeee0'
+            range:
+              - 3 Apr
+              - 20 Apr
+          harvest:
+            color: '#efeee0'
+            range:
+              - 14 Jul
+              - 29 Jul
+      - name: Red Lake
+        classification: Ribes spicatum E. Robson
+        description:
+          type: red currant
+          flower: Strigs of white/green flowers form at buds in Spring.
+          fruit: Strigs of firm tart bright red berries.
+          history: >
+            Commercially introduced in 1933 by the University of Minnesota. Bred
+            by William Horace Alderman at the Agricultural Experiment Station in
+            Excelsior, Minnesota. Originally called Minnesota No. 24, this
+            cultivar began to attract attention around 1920 when it was growing
+            in a test plot with other seedlings of unknown parentage.
+        zones:
+          - 3
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          rate: vigorous
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 6
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 6 Apr
+          bloom:
+            color: '#efeee0'
+            range:
+              - 1 Apr
+              - 20 Apr
+          harvest:
+            color: '#C0392B'
+            range:
+              - 3 Jul
+              - 11 Jul
+      - name: Slitsa
+        classification: Ribes nigrum L.
+        description:
+          type: black currant
+          flower: Strigs of purple flowers form at buds in Spring.
+          fruit: >-
+            Strigs of firm jet black berries. Sweet and less musky than other
+            black currant varieties. About 10 berries per strig.
+          history: |
+            A selection of R. nigrum from Holland.
+        zones:
+          - 3
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          rate: vigorous
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 6
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 25 Feb
+              - 13 Mar
+          bloom:
+            color: '#BF7AA5'
+            range:
+              - 26 Mar
+              - 20 Apr
+          harvest:
+            color: '#211121'
+            range:
+              - 3 Jul
+              - 11 Jul
+  - name: Gooseberry
+    description: >
+      Gooseberries are bushes that grow blueberry to grape-sized berries with
+      their own unique flavor that are sweet tart when ripe. The berries have
+      visible veins and range in color from green, blushed pink, red, purple,
+      and even black or white. The bushes have thorns but some varieties have
+      few or small thorns, while for others the berries are far enough from the
+      branches to make picking easier. The bushes live and produce berries for
+      25 years and sometimes more! All gooseberries require about 1000 - 1200
+      chill hours to break dormancy and produce fruit.
+
+
+      ![Different kinds of gooseberries](./gooseberry-varieties.jpg)
+
+
+      Gooseberries are very popular in Europe, but hardly available commercially
+      in the U.S. due mostly to a federal ban on growing them enacted in 1920.
+      In 1966 the federal ban was lifted, however it is still banned to grow
+      gooseberries in some states because they are an alternate host for white
+      pine blister rust.
+
+
+      Gooseberries can be eaten fresh when fully ripe and make excellent jams,
+      jellies, and pies.
+    cultivars:
+      - name: Black Velvet
+        classification: Ribes uva-crispa L.
+        description:
+          type: gooseberry
+          flower: >-
+            Small groups of one to three red-blushed white flowers form at buds
+            in Spring after leaves have grown.
+          fruit: >-
+            Small groups of one to three dark purple berries. Described as a
+            "unique but interesting" flavor. Dessert quality.
+          history: >
+            A cross between the European 'Red Champagne' gooseberry and a native
+            'Worcesterberry' (Ribes divaricatum).
+        zones:
+          - 4
+          - 8
+        habit:
+          form: bush
+          shape: upright
+          rate: vigorous
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 25 Feb
+              - 13 Mar
+          bloom:
+            color: '#FFCCCC'
+            range:
+              - 26 Mar
+              - 20 Apr
+          harvest:
+            color: '#511f51'
+            range:
+              - 3 Jul
+              - 11 Jul
+      - name: Hinnomaki Red
+        classification: Ribes uva-crispa L.
+        description:
+          type: gooseberry
+          flower: >-
+            Small groups of one to three pink-blushed white flowers form at buds
+            in Spring after leaves have grown.
+          fruit: >-
+            Small groups of one to three red berries. Described as having tart
+            skin with sweet flesh. Dessert quality.
+          history: >
+            Developed at the Lepaa Horticultural College in Finland in the
+            1930's from a wild disease-resistant specimen. Originally called
+            "Lepaa Red" but renamed to Hinnomaki Red. Also called Hinnonmaki Red
+            or Hinomaki Red, which is just a shortened version of the Finnish
+            name.
+        zones:
+          - 3
+          - 9
+        habit:
+          form: bush
+          shape: spreading
+          height: 1
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 25 Feb
+              - 13 Mar
+          bloom:
+            color: '#FFBBBB'
+            range:
+              - 26 Mar
+              - 20 Apr
+          harvest:
+            color: '#C0392B'
+            range:
+              - 3 Jul
+              - 11 Jul
+      - name: Jeanne
+        classification: Ribes uva-crispa L.
+        description:
+          type: gooseberry
+          flower: >-
+            Small groups of one to two white flowers form at buds in Spring
+            after leaves have grown.
+          fruit: >-
+            Small groups of one to two deep red berries. Dessert quality. About
+            1.5kg per plant.
+          history: >
+            Released in 2006 by the USDA Agricultural Research Service in
+            Corvallis, Oregon after more than 20 years of study. It was donated
+            to the USDA ARS NCGR in 1981 and is of an unknown mixed
+            European/American gooseberry pedigree. It was named after Ms. Cheryl
+            Jeanne Gunning, who worked in the tissue culture laboratory from
+            1981 to 1985. This variety is highly resistant to white pine blister
+            rust and powdery mildew while having small thorns and dessert
+            quality fruit.
+        zones:
+          - 3
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 25 Feb
+              - 13 Mar
+          bloom:
+            color: '#FFEEFA'
+            range:
+              - 26 Mar
+              - 20 Apr
+          harvest:
+            color: '#641E16'
+            range:
+              - 3 Jul
+              - 11 Jul
+  - name: Honeyberry
+    description: |
+      Honeyberry bushes are an edible blue honeysuckle with a circumpolar range in the northern hemisphere and are well-known in Eastern Europe, Russia, and Japan while gaining popularity in the United States & Canada as well.
+
+      Among the first plants to bloom and produce fruit very early in the season, Honeyberries are also extremely cold-hardy, can tolerate some shade, do not require acidic soil, and live for 50+ years. Most varieties require a different variety in the same area for pollination.
+
+      ![Honeyberry diversity by Bob Bors](./honeyberry-diversity.jpg)
+
+      The berries are 1-3cm long with a color like a blueberry brushed grey. They taste sweet when fully ripe, but most turn blue well before being ripe. When picked too early they are sour. Ripe berries are delicious eaten fresh and can be substituted for blueberries in recipes.
+    cultivars:
+      - name: Blue Forest
+        classification: Lonicera caerulea var. edulis 'Magadan'
+        description:
+          type: honeyberry
+          flower: 'Pale yellow flowers in clusters near the leaf nodes.'
+          fruit: 'Dark blue 1.5-2cm berries which turn blue before being ripe. Eat when soft or the color is blue throughout.'
+          history: >
+            'Magaden', commonly marketed under the trade name of BLUE FOREST,
+            reportedly originated at N.I. Vavilov Institute of Plant Industry,
+            Vladivostok, Russia in 1968.
+        zones:
+          - 2
+          - 7
+        habit:
+          form: bush
+          shape: spreading
+          height: 0.85
+          spread: 0.85
+        pollinators: Late blooming honeyberries
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5
+            - 7
+        light:
+          type:
+            - partly sunny
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#f7febd'
+            range:
+              - 30 Mar
+              - 25 Apr
+          harvest:
+            color: '#1d5f88'
+            range:
+              - 8 Jun
+              - 4 Jul
+      - name: Blue Velvet
+        classification: Lonicera caerulea var. kamtschatica
+        description:
+          type: honeyberry
+          flower: 'Pale yellow flowers in clusters near the leaf nodes.'
+          fruit: 'Dark blue 1.5-2cm berries which turn blue before being ripe. Eat when soft or the color is blue throughout.'
+          history: |
+            Of Russian origin. Also known as Kiev #8. Used as a genetic base for more modern varieties such as Borealis and Tundra.
+        zones:
+          - 2
+          - 7
+        habit:
+          form: bush
+          shape: spreading
+          height: 0.85
+          spread: 0.85
+        pollinators: Late blooming honeyberries
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5
+            - 7
+        light:
+          type:
+            - partly sunny
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#fdffab'
+            range:
+              - 30 Mar
+              - 25 Apr
+          harvest:
+            color: '#1d5f88'
+            range:
+              - 8 Jun
+              - 4 Jul
+      - name: Yezberry Maxie
+        classification: Lonicera caerulea var. emphyllocalyx 'Kuchi'
+        description:
+          type: haskap
+          flower: Small groups of two yellowish flowers.
+          fruit: Medium-large blue berries.
+          history: |
+            Commercially available since 2016. Patent pending.
+        zones:
+          - 2
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          height: 1.75
+          spread: 1.25
+        pollinators: Yezberry Solo
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5
+            - 7
+        light:
+          type:
+            - partly sunny
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#f7febd'
+            range:
+              - 5 Apr
+              - 25 Apr
+          harvest:
+            color: '#1d5f88'
+            range:
+              - 8 Jun
+              - 4 Jul
+      - name: Yezberry Solo
+        classification: Lonicera caerulea var. emphyllocalyx 'Kapu'
+        description:
+          type: haskap
+          flower: >-
+            Small groups of two yellowish flowers about 2.4cm long and 5mm wide
+            coming from the leaf nodes.
+          fruit: >-
+            Medium large in size, oval-ovate in shape, very firm, produces
+            little juice, good tasting with 14.4&deg; brix, suitable for dried
+            fruit production, and maintains its appearance, firmness and taste
+            for at least 4 weeks in cold storage.
+          history: >
+            This new Japanese haskap cultivar, ‘Kapu’, arose from seed collected
+            from open pollination of an unnamed Japanese haskap plant designated
+            as “selection #8” that was growing on a farm in Bibai, Japan. ‘Kapu’
+            was selected in Corvallis, Oreg. as a single unique plant in 2004
+            from the population of resulting seedlings. Commercially available
+            in 2016/2017. Patented as [USPP
+            26820](https://www.google.com/patents/USPP26820).
+        zones:
+          - 2
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          height: 1.75
+          spread: 1.25
+        pollinators: 'Partially self-pollinating, other haskaps'
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5
+            - 7
+        light:
+          type:
+            - partly sunny
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#fdffab'
+            range:
+              - 4 Apr
+              - 25 Apr
+          harvest:
+            color: '#1d5f88'
+            range:
+              - 8 Jun
+              - 4 Jul
+  - name: Jostaberry
+    description: >
+      Jostaberries (pronounced "yostaberries") are bushes that grow clusters of
+      small to medium berries that are sweet tart when ripe. First released in
+      1977, they are a tetraploid complex cross of the black currant R. nigrum,
+      the North American coastal black gooseberry R. divaricatum, and the
+      European gooseberry R. uva-crispa. Developed in Germany, the name is from
+      the German words "<em>Jo</em>hannisbeere" (currant) and
+      "<em>Sta</em>chelbeere" (gooseberry). Today several different varieties
+      are available.
+
+
+      Jostaberries can be eaten fresh when fully ripe and make excellent jams,
+      jellies, and juice.
+    cultivars:
+      - name: Jostaberry
+        classification: Ribes nidigrolaria R. Bauer & A. Bauer
+        description:
+          type: jostaberry
+          flower: Clusters of reddish-purple flowers form at buds in Spring.
+          fruit: >-
+            Clusters of firm very dark pruple to black fruit form with 3-5
+            berries. Size is between a black currant and a gooseberry, as is the
+            flavor. Ripens unevenly, so pick multiple times.
+          history: >
+            The original jostaberry, developed in the 1955 in Breitbrunn West
+            Germany by Dr. Rudolph Bauer and released in 1977. Open pollinated
+            F2 cross of ('Silvergieters Schwarze' R. nigrum &#10005; 'Grüne
+            Hansa' R. uva-crispa) &#10005; ('Langtraubige Schwarze' R. nigrum
+            &#10005; R. divaricatum). The process to merge these fruits began in
+            1883, however ran into problems with fruit set that were eventually
+            solved with a chemical treatment called colchicine.
+        zones:
+          - 3
+          - 8
+        habit:
+          form: bush
+          shape: upright
+          rate: vigorous
+          height: 2
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 6
+            - 6.8
+        light:
+          type:
+            - part shade
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 25 Feb
+              - 13 Mar
+          bloom:
+            color: '#BF7AA5'
+            range:
+              - 26 Mar
+              - 20 Apr
+          harvest:
+            color: '#211121'
+            range:
+              - 29 Jun
+              - 19 Jul
+  - name: Strawberry
+    description: >
+      Strawberry plants are small forbs with a crown that grows shoots for
+      leaves, flowers and fruit. The strawberry itself is an aggregate accessory
+      fruit and what most people consider the "seeds" on the outside of the
+      berry are actually the true botanical fruits. Strawberries come in a
+      variety of colors from red to deep red, yellow and white. Production of
+      berries depends on the type: june-bearing, everbearing, or day-neutral.
+
+
+      ![Strawberry varieties](./strawberry-types.jpg)
+
+
+      June bearing strawberries produce one large crop in June. The rest of the
+      year they do not produce berries. Everbearing varieties produce two main
+      crops, one in summer and one in the fall with a few berries in between.
+      Day-neutral strawberries produce fruit continuously from spring until
+      frost. Most cultivated varieties produce a similar total amount of fruit,
+      the main difference is how spread out the production is. June-bearing
+      types can be great for preserves, while day-neutral types are good for a
+      constant supply of berries.
+
+
+      Strawberries are excellent eaten fresh when fully ripe and make fantastic
+      jams and smoothies.
+    cultivars:
+      - name: Ozark Beauty
+        classification: Fragaria ✕ ananassa
+        description:
+          type: everbearing strawberry
+          flower: >-
+            White and yellow flowers form from shoots coming out of the crown
+            during spring and fall.
+          fruit: >-
+            Medium-sized, firm sweet red berries form during summer and fall.
+            Pick frequently as berries ripen over a long period.
+          history: >
+            Released in 1955 by J.B. Winn of Arkansas. Cross of 'Red Rich'
+            &#10005; 'Twentieth Century'. Propagates easily through many
+            runners.
+        zones:
+          - 4
+          - 8
+        habit:
+          form: forb
+          shape: spreading
+          rate: vigorous
+          height: 0.4
+          spread: 0.3
+        pollinators: self-pollinating
+        bearing:
+          seed: 2
+          runner: 1
+        soil:
+          types:
+            - loamy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.5
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 9 Feb
+              - 21 Feb
+          bloom:
+            color: '#efeee0'
+            range:
+              - 31 Mar
+              - 20 Apr
+              - 9 Jul
+              - 27 Jul
+          harvest:
+            color: '#C0392B'
+            range:
+              - 30 May
+              - 11 Jun
+              - 7 Sep
+              - 19 Sep
+      - name: Seascape
+        classification: Fragaria ✕ ananassa
+        description:
+          type: day-neutral strawberry
+          flower: >-
+            White and yellow flowers form from shoots coming out of the crown
+            during spring and fall.
+          fruit: >-
+            Medium-sized, firm sweet red berries form during summer and fall.
+            Pick frequently as berries ripen over a long period.
+          history: >
+            Released in 1991 by the University of California from a cross made
+            in 1983 between 'Selva' and 'Douglas'. Propagates easily through
+            runners. Patented as [USPP
+            7614](https://www.google.com/patents/USPP7614).
+        zones:
+          - 4
+          - 8
+        habit:
+          form: forb
+          shape: spreading
+          rate: vigorous
+          height: 0.4
+          spread: 0.3
+        pollinators: self-pollinating
+        bearing:
+          seed: 2
+          runner: 1
+        soil:
+          types:
+            - loamy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.5
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 9 Feb
+              - 21 Feb
+          bloom:
+            color: '#efeee0'
+            range:
+              - 31 Mar
+              - 7 Sep
+          harvest:
+            color: '#C0392B'
+            range:
+              - 30 May
+              - 12 Oct

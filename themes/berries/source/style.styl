@@ -163,16 +163,28 @@ nav
     margin-top 12px
     margin-bottom 12px
 
+    &:first-child
+      margin-top 0
+
 .column
     margin-right 24px
 
-.strip img
+.details
+  max-height 0
+  overflow hidden
+
+.show:target ~ .details
+  max-height 1500px
+  transition max-height 0.5s ease-in-out
+
+.strip
+  display flex
+  flex-wrap wrap
+
+  img
     cursor pointer
-    display inline
     max-height 120px
-    border-radius 0
-    padding 0
-    margin 0
+    margin-right 4px
 
     &.zoomed
         position fixed
@@ -185,6 +197,65 @@ nav
 
 .clear
     clear both
+
+.tooltip
+    display inline
+    position relative
+
+    &:hover
+      cursor default
+
+.tooltip:after
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(data-tooltip);
+    left: 50%;
+    transform: translate(-45%, 0);
+    transform: translate(calc(-50% + 6px), 0);
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    min-width: 50px;
+    max-width: 240px;
+    white-space: nowrap
+    transition: opacity 0.25s ease-in-out
+    opacity: 0
+    pointer-events none
+
+.tooltip:hover:after{
+  opacity: 1
+}
+
+.tooltip:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+    transition opacity 0.25s ease-in-out
+    opacity 0
+    pointer-events none
+}
+
+.tooltip:hover:before
+  opacity 1
+
+.property
+  display inline-flex
+  flex-direction column
+
+  label
+    color #1862B5
+    font-size 7pt
+    font-weight bold
+    text-transform uppercase
+    margin-bottom -4px
 
 .info
     width 18%

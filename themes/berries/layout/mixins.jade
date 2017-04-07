@@ -1,3 +1,80 @@
+mixin Column(name, value, unsafe)
+  span.column
+    strong.name= name
+    if unsafe
+      != value
+    else
+      = value
+
+mixin IconColumn(name, tooltip, value)
+  span.column.tooltip(data-tooltip=tooltip)
+    i.fa(class="fa-" + name)
+    | &nbsp;
+    = value
+
+mixin PropertyColumn(name, value)
+  span.column.property
+    label= name
+    .value
+      = value
+
+mixin MarkdownPropertyColumn(name, value)
+  span.column.property
+    label= name
+    .value
+      != markdown(value).replace(/(^<p>)|(<\/p>$)/gmi, '')
+
+mixin MarkdownColumn(name, value)
+  +Column(name, markdown(value).replace(/(^<p>)|(<\/p>$)/gmi, ''), true)
+
+mixin CultivarCalendar(cultivar)
+  svg(width="100%" viewbox="0 0 480 44")
+    +CalendarGrid(44)
+    +CultivarDates("bud", cultivar.dates.bud.range, 10, cultivar.dates.bud.color)
+    +CultivarDates("bloom", cultivar.dates.bloom.range, 20, cultivar.dates.bloom.color)
+    +CultivarDates("harvest", cultivar.dates.harvest.range, 30, cultivar.dates.harvest.color)
+
+mixin CategoryCalendar(categories)
+  - var height = 14
+  each category in categories
+    - height += 10
+    each cultivar in category.cultivars || []
+      - height += 11
+  - height -= 10
+  svg(width="100%" viewbox="0 0 480 " + height)
+    +CalendarGrid(height)
+    - var y = 10
+    each category in categories
+      text(x=3 y=y + 7 font-size=6 fill="#aaa")= category.name
+      each cultivar in category.cultivars || []
+        +CultivarDates(cultivar.name, cultivar.dates.harvest.range, y, cultivar.dates.harvest.color, cultivar.url)
+        - y += 11
+      - y += 10
+
+mixin CalendarGrid(height)
+  rect(x=1 y=1 width=478 height=height - 1 rx="3" ry="3" fill="none" stroke-width=0.25 stroke="#aaa")
+  path(d=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map(function (i) { return `M ${i * 40} 1.5 L ${i * 40} ${height - 0.5}`; }).join(' ') stroke-dasharray="2, 2" stroke-width="0.5" stroke="#ccc")
+  each month, index in ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    text(x=index * 40 + (index === 0 ? 3 : 2) y=7 font-size="6")= month
+
+mixin CultivarDates(name, dates, y, fill, link)
+  - var luma = (parseInt(fill[1] + fill[2], 16) * 0.299) + (parseInt(fill[3] + fill[4], 16) * 0.587) + (parseInt(fill[5] + fill[6], 16) * 0.114)
+  - var textColor = luma < 164 ? 'white' : 'black'
+  - var n = 0
+  while n < dates.length
+    - var start = dates[n++]
+    - var end = dates[n++]
+    - var mid = (start + ((end - start) / 2)) / 365 * 480
+    - var width = Math.max(36, (end - start) / 365 * 480)
+    if link
+      a(href=link)
+        rect(x=mid - (width / 2) y=y rx=1 ry=1 width=width height=10 fill=fill)
+        text(x=mid y=y + 8 text-anchor="middle" font-size=7 fill=textColor)= name.substr(0, 8)
+    else
+      rect(x=mid - (width / 2) y=y rx=1 ry=1 width=width height=10 fill=fill)
+      text(x=mid y=y + 8 text-anchor="middle" font-size=7 fill=textColor)= name.substr(0, 8)
+    
+
 mixin Article(article)
   article(id=article.slug itemscope itemprop="blogPost")
     if article.title

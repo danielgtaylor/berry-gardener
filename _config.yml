@@ -45,6 +45,9 @@ highlight:
 markdown:
   render:
     html: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
   anchors:
     level: 2
     permalink: true
