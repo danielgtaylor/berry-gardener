@@ -82,3 +82,4 @@ deploy:
   user: dan
   root: /var/www/berrygardener.com
   port: 22
+  args: -h
