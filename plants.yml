@@ -605,6 +605,102 @@ categories:
             range:
               - 8 Jun
               - 4 Jul
+      - name: Borealis
+        classification: Lonicera caerulea
+        description:
+          type: honeyberry
+          flower: 'Pale yellow flowers in clusters near the leaf nodes.'
+          fruit: 'Dark blue 1.5-2cm berries which turn blue before being ripe. Eat when soft or the color is blue throughout. The berries have a rounder shape and thicker skin.'
+          history: >
+            A cross of [Blue Velvet](/plants/honeyberry/blue-velvet/) (Kiev #8) and Tomichka from the University of Saskatchewan, released in 2007. Tomichka in turn is an F1 hybrid from Delfin that is F1 hybrid from an L. Turczaninowii wild honeyberry from Primorskii Kraii, Russian Far East. From the same breeding program as Tundra.
+        zones:
+          - 2
+          - 5
+        habit:
+          form: bush
+          shape: upright
+          height: 2
+          spread: 1.5
+        pollinators: Late blooming honeyberries
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5
+            - 7
+        light:
+          type:
+            - partly sunny
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#f7febd'
+            range:
+              - 30 Mar
+              - 25 Apr
+          harvest:
+            color: '#1d5f88'
+            range:
+              - 8 Jun
+              - 4 Jul
+      - name: Tundra
+        classification: Lonicera caerulea
+        description:
+          type: honeyberry
+          flower: 'Pale yellow flowers in clusters near the leaf nodes.'
+          fruit: 'Dark blue 1.5-2cm berries which turn blue before being ripe. Eat when soft or the color is blue throughout. The berries have a rounder shape and thicker skin.'
+          history: >
+            A cross of [Blue Velvet](/plants/honeyberry/blue-velvet/) (Kiev #8) and Tomichka from the University of Saskatchewan. Tomichka in turn is an F1 hybrid from Delfin that is F1 hybrid from an L. Turczaninowii wild honeyberry from Primorskii Kraii, Russian Far East. From the same breeding program as Borealis.
+        zones:
+          - 2
+          - 7
+        habit:
+          form: bush
+          shape: upright
+          height: 1.85
+          spread: 1.5
+        pollinators: Late blooming honeyberries
+        bearing:
+          seed: 3
+          cutting: 2
+        soil:
+          types:
+            - loamy
+            - sandy
+          drainage: well-drained
+          ph:
+            - 5
+            - 7
+        light:
+          type:
+            - partly sunny
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#f7febd'
+            range:
+              - 30 Mar
+              - 25 Apr
+          harvest:
+            color: '#1d5f88'
+            range:
+              - 8 Jun
+              - 4 Jul
       - name: Yezberry Maxie
         classification: Lonicera caerulea var. emphyllocalyx 'Kuchi'
         description:
@@ -786,6 +882,67 @@ categories:
             range:
               - 29 Jun
               - 19 Jul
+  - name: Raspberry
+    description: |
+      Raspberries are an aggregate fruit formed from a number of attached drupelets, typically in a cone-like shape. Raspberries differ from blackberries in that, among other things, the berry is hollow.
+
+      ![Red and yellow raspberries](./raspberry-red-and-yellow-on-plate.jpg)
+
+      Like mint, the plants can spread aggressively via underground roots. In the Spring, new canes shoot up from the ground and leaf out. Each cane lives for two years. On primocane-fruiting raspberries the cane produces fruit near its tip the first year, then along the lower half the second. For floricane-fruiting raspberries there is no fruit the first year, and then fruit along the entire cane the second.
+
+      Raspberries come in many shapes, sizes, and colors including red, pink, yellow, and black.
+    cultivars:
+      - name: Double Gold
+        classification: Rubus idaeus L.
+        description:
+          type: primocane red raspberry
+          flower: White with yellow flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Pink to orange/red (33A) colored large sweet tasty conical berries that hold their shape well.
+          history: >
+            Generally available since 2015. Bred by Courtney A. Weber of Cornell University. Selected from a hand-pollinated cross of the maternal parent Cornell NY319 with paternal parent ‘Graton Gold’. Planted in 2009 in Geneva, NY for observation and selected for propagation in 2012. Patented as [USPP 24811](https://www.google.com/patents/USPP24811).
+        zones:
+          - 4
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.75
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5
+            - 6.5
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#229954'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#f0f0f0'
+            range:
+              - 1 May
+              - 1 Jun
+              - 1 Aug
+              - 1 Sep
+          harvest:
+            color: '#fd7781'
+            range:
+              - 1 Jun
+              - 15 Jul
+              - 1 Sep
+              - 15 Oct
   - name: Strawberry
     description: >
       Strawberry plants are small forbs with a crown that grows shoots for

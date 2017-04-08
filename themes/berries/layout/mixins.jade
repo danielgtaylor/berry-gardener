@@ -6,12 +6,6 @@ mixin Column(name, value, unsafe)
     else
       = value
 
-mixin IconColumn(name, tooltip, value)
-  span.column.tooltip(data-tooltip=tooltip)
-    i.fa(class="fa-" + name)
-    | &nbsp;
-    = value
-
 mixin PropertyColumn(name, value)
   span.column.property
     label= name
@@ -77,7 +71,7 @@ mixin CultivarDates(name, dates, y, fill, link)
 
 mixin Article(article)
   article(id=article.slug itemscope itemprop="blogPost")
-    if article.title
+    if article.title && !article.hideTitle
       header
         h1.title(itemprop="name"): a(href=article.permalink)= article.title
         .tags
