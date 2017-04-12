@@ -16,9 +16,12 @@ article.page(id=page.slug itemscope itemtype="http://schema.org/CollectionPage")
             | Varieties
           ul
             each cultivar in category.cultivars
-              li: a(href=cultivar.url)= cultivar.name
+              li
+                a(href=cultivar.url)= cultivar.name
+                span.dulled= ' (' + cultivar.description.type + ')'
   h3(id="berry-harvest-calendar")
     a.header-anchor(href="#berry-harvest-calendar") ¶
     | Berry Harvest Calendar
   +CategoryCalendar(page.categories)
-  a(href="/plants.yml") Download plant data file
+  span Dates are for Seattle, WA |&nbsp;
+    a(href="/plants.yml") Download plant data file

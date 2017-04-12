@@ -1,4 +1,63 @@
 categories:
+  - name: Blackberry
+    description: |
+      Blackberries are an aggregate fruit formed from a number of attached drupelets, typeically in a cone-like shape. Blackberries differ from raspberries in that, among other things, the berry is not hollow. Because of this, blackberries and black raspberries are distinct fruits.
+
+      ![Blackberries](./blackberry-berries.jpg)
+
+      In the Spring, new canes shoot up from the ground and leaf out. Each cane lives for two years. On primocane-fruiting varieties the cane produces fruit near its tip the first year, then along the lower half the second. For floricane-fruiting varieties there is no fruit the first year, and then fruit along the entire cane the second.
+    cultivars:
+      - name: Prime Ark Freedom
+        classification: Rubus subgenus Rubus Watson
+        description:
+          type: primocane blackberry
+          flower: White with purple flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Conical red sweet-tart berries averaging 1.9 grams. Susceptible to sunburn in Seattle, WA, particularly during very sunny days in late summer after a period of overcast days.
+          history: >
+            Developed by John Reuben Clark at the University of Arkansas from a hand-pollinated cross of Ark. Selection `A-2301T` &#10005; `APF-49T` made in 2004 and located near Clarksville, Ark. Thornless and fruits twice a year with large berries. Patented as [USPP 26990](https://www.google.com/patents/USPP26990).
+        zones:
+          - 4
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.4
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#344d29'
+            range:
+              - 10 Mar
+              - 15 Apr
+          bloom:
+            color: '#f2e5e4'
+            range:
+              - 10 Apr
+              - 10 May
+              - 1 Jul
+              - 1 Sep
+          harvest:
+            color: '#181417'
+            range:
+              - 28 May
+              - 22 Jun
+              - 10 Aug
+              - 1 Oct
   - name: Blueberry
     description: >
       Blueberry plants are upright bushes that produce small to medium sized
@@ -553,7 +612,7 @@ categories:
               - 30 Mar
               - 25 Apr
           harvest:
-            color: '#1d5f88'
+            color: '#34407e'
             range:
               - 8 Jun
               - 4 Jul
@@ -601,7 +660,7 @@ categories:
               - 30 Mar
               - 25 Apr
           harvest:
-            color: '#1d5f88'
+            color: '#34407e'
             range:
               - 8 Jun
               - 4 Jul
@@ -649,7 +708,7 @@ categories:
               - 30 Mar
               - 25 Apr
           harvest:
-            color: '#1d5f88'
+            color: '#34407e'
             range:
               - 8 Jun
               - 4 Jul
@@ -697,7 +756,7 @@ categories:
               - 30 Mar
               - 25 Apr
           harvest:
-            color: '#1d5f88'
+            color: '#34407e'
             range:
               - 8 Jun
               - 4 Jul
@@ -745,7 +804,7 @@ categories:
               - 5 Apr
               - 25 Apr
           harvest:
-            color: '#1d5f88'
+            color: '#34407e'
             range:
               - 8 Jun
               - 4 Jul
@@ -795,17 +854,17 @@ categories:
             - full sun
         dates:
           bud:
-            color: '#229954'
+            color: '#2d3f23'
             range:
               - 21 Mar
               - 10 Apr
           bloom:
-            color: '#fdffab'
+            color: '#edea73'
             range:
               - 4 Apr
               - 25 Apr
           harvest:
-            color: '#1d5f88'
+            color: '#34407e'
             range:
               - 8 Jun
               - 4 Jul
@@ -892,6 +951,108 @@ categories:
 
       Raspberries come in many shapes, sizes, and colors including red, pink, yellow, and black.
     cultivars:
+      - name: Caroline
+        classification: Rubus idaeus L.
+        description:
+          type: primocane red raspberry
+          flower: White with yellow flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Conical red sweet-tart berries averaging 1.9 grams. Susceptible to sunburn in Seattle, WA, particularly during very sunny days in late summer after a period of overcast days.
+          history: >
+            Originated from a collaborative controlled cross at the University of Maryland Greenhouses in College Park, Md. The cross, "CR", was `GEO-1` × `Heritage` and was made in winter of 1989. `GEO-1` was a seedling from the cross `Autumn Bliss` × `Glen Moy`. Selected in 1991. Patented as [USPP 10412](https://www.google.com/patents/USPP10412).
+        zones:
+          - 4
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#25361d'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#e8e2df'
+            range:
+              - 1 May
+              - 1 Jun
+              - 1 Aug
+              - 1 Sep
+          harvest:
+            color: '#a20712'
+            range:
+              - 1 Jun
+              - 15 Jul
+              - 1 Sep
+              - 15 Oct
+      - name: Crimson Night
+        classification: Rubus idaeus L.
+        description:
+          type: primocane red raspberry
+          flower: White flowers with five obovate petals form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Broad conical 2cm long greyed-purple (187B) berries composed of about 85 drupelets. Average weight 2.8g.
+          history: >
+            The new and distinct red raspberry originated from a hand-pollinated cross of the Cornell selection NY270 and Cornell selection NY357. This cross was made and the resulting seedling grown in Geneva, N.Y. The seedling was selected from a controlled breeding plot in 2003 and was designated NY03-56 for testing. NY03-56 was subsequently designated ‘Crimson Night’. Patented as [USPP 24949](https://www.google.com/patents/USPP24949).
+        zones:
+          - 4
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#25361d'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#e8e2df'
+            range:
+              - 1 May
+              - 1 Jun
+              - 1 Aug
+              - 1 Sep
+          harvest:
+            color: '#460d17'
+            range:
+              - 1 Jun
+              - 15 Jul
+              - 1 Sep
+              - 15 Oct
       - name: Double Gold
         classification: Rubus idaeus L.
         description:
@@ -918,33 +1079,343 @@ categories:
             - clay
           drainage: well-drained
           ph:
-            - 5
-            - 6.5
+            - 5.5
+            - 6.8
         light:
           type:
             - full sun
         dates:
           bud:
-            color: '#229954'
+            color: '#25361d'
             range:
               - 21 Mar
               - 10 Apr
           bloom:
-            color: '#f0f0f0'
+            color: '#e8e2df'
             range:
               - 1 May
               - 1 Jun
               - 1 Aug
               - 1 Sep
           harvest:
-            color: '#fd7781'
+            color: '#dd645d'
             range:
               - 1 Jun
               - 15 Jul
               - 1 Sep
               - 15 Oct
+      - name: Fall Gold
+        classification: Rubus idaeus L.
+        description:
+          type: primocane red raspberry
+          flower: White with yellow flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Deep yellow berries that have a tendency to crumble. Sweet flavor.
+          history: >
+            Developed by Elwyn W. Meader at the New Hampshire Agricultural Experiment Station, University of New Hampshire in Durham by crossing the `NH 56-1` raspberry with a second generation open-pollinated selection of `Taylor` &#10005;  `Rubus pungens var. oldhamii`. Selected in 1964. Released in 1967.
+        zones:
+          - 4
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.25
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#163d11'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#e8e2df'
+            range:
+              - 1 May
+              - 1 Jun
+              - 1 Aug
+              - 1 Sep
+          harvest:
+            color: '#ffc681'
+            range:
+              - 1 Jun
+              - 15 Jul
+              - 1 Sep
+              - 15 Oct
+      - name: Heritage
+        classification: Rubus idaeus L.
+        description:
+          type: primocane red raspberry
+          flower: White with yellow flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Classic round red raspberries. Sweet and flavorful.
+          history: >
+             Released by Donald Ourecky and George Slate at the New York State Agricultural Experiment Station in Geneva, NY, in 1969 with Cornell University. Heritage has quickly become one of the most widely-grown raspberry cultivars in the world. It received the 2004 Outstanding Fruit Cultivar award.
+        zones:
+          - 4
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.75
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#163d11'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#e8e2df'
+            range:
+              - 1 May
+              - 1 Jun
+              - 1 Aug
+              - 1 Sep
+          harvest:
+            color: '#720d1b'
+            range:
+              - 1 Jun
+              - 15 Jul
+              - 1 Sep
+              - 15 Oct
+      - name: Niwot
+        classification: Rubus occidentalis L.
+        description:
+          type: primocane black raspberry
+          flower: White with yellow flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Black round fruits with about 125 smaller drupelets. Many seeds, but with classic black raspberry flavor.
+          history: >
+            Developed by a private breeder (Peter H. Tallman) during a breeding program taking place in Poughkeepsie, NY and later Longmont, CO, since at least the 1980s. Niwot is a selection of a third-generation open-pollinated seedling with parentage that includes a wild primocane-fruiting black raspberry with few small berries from NY and a wild black rasbperry with large fruit from Arkansas. Selected in 2006. Similar to `Explorer` but Niwot is self-pollinating. Patented as [USPP 27131](https://www.google.com/patents/USPP27131).
+        zones:
+          - 5
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#14291a'
+            range:
+              - 5 Apr
+              - 20 Apr
+          bloom:
+            color: '#e8e2df'
+            range:
+              - 25 May
+              - 25 Jun
+              - 25 Jul
+              - 1 Sep
+          harvest:
+            color: '#3d113c'
+            range:
+              - 5 Jul
+              - 25 Jul
+              - 24 Aug
+              - 15 Oct
+      - name: Polana
+        classification: Rubus idaeus L.
+        description:
+          type: primocane red raspberry
+          flower: White with yellow flowers form close to one another on side shoots coming from leaf nodes of the main cane.
+          fruit: Conical red fruit ripens ealier than Heritage.
+          history: >
+            Released in 1991 from Brzezna Fruit Experiment Station (Instytut Ogrodnictwa) in Poland, which has had a raspberry breeding program since 1979. This is one of their earliest cultivars. Recently introduced into the United States. Protected as [S 218](http://www.coboru.pl/English/odm_szczegoly_eng.aspx?nrodm=781) on the Polish National List (PNL).
+        zones:
+          - 3
+          - 8
+        habit:
+          form: cane
+          shape: upright
+          height: 1.5
+          spread: 1
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          cutting: 1
+        soil:
+          types:
+            - sandy
+            - clay
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.8
+        light:
+          type:
+            - full sun
+        dates:
+          bud:
+            color: '#25361d'
+            range:
+              - 21 Mar
+              - 10 Apr
+          bloom:
+            color: '#e8e2df'
+            range:
+              - 1 May
+              - 1 Jun
+              - 1 Aug
+              - 1 Sep
+          harvest:
+            color: '#a20712'
+            range:
+              - 15 May
+              - 1 Jul
+              - 15 Aug
+              - 1 Oct
+  - name: Rhubarb
+    description: |
+      While technically a vegetable because the stems are harvested and eaten, Rhubarb is often grown with berries because its sweet and sour flavor pairs well with fruit, particularly strawberries.
+
+      Rhubarb leaves are high in oxalic acid and are poisenous in large doses. It is recommended to never consume the leaves; only eat the stems.
+    cultivars:
+      - name: Crimson Red
+        classification: Rheum rhabarbarum
+        description:
+          type: red rhubarb
+          flower: >-
+            Small white flowers on tall stalks.
+          stalk: >-
+            Thick, red stalks 40-60cm long with a good balance of sweet and tart.
+          history: >
+            Also known as Crimson Cherry, Crimson Wine, Crimson. An old heirloom variety which may have been propagated by seed and thus the name covers many similar but genetically distinct cultivars.
+        zones:
+          - 3
+          - 8
+        habit:
+          form: forb
+          shape: spreading
+          rate: vigorous
+          height: 0.6
+          spread: 0.8
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          crown: 2
+        soil:
+          types:
+            - loamy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.5
+        light:
+          type:
+            - part sun
+            - full sun
+        dates:
+          bud:
+            color: '#3f8634'
+            range:
+              - 1 Feb
+              - 25 Feb
+          bloom:
+            color: '#efeee0'
+            range:
+              - 15 Apr
+              - 15 Jun
+          harvest:
+            color: '#ad2317'
+            range:
+              - 10 Apr
+              - 10 Jun
+      - name: Victoria
+        classification: Rheum rhabarbarum
+        description:
+          type: green rhubarb
+          flower: >-
+            Small white flowers on tall stalks.
+          stalk: >-
+            Medium-sized pink to red blushed green stalks are green inside with thin skin and good for cooking.
+          history: >
+            Developed by [Joseph Myatt](http://josephmyatt.weebly.com/josephmyattbiography.html) of Manor Farm in Deptford, England. He received a dozen rhubarb roots from his friend Isaac Oldacre, who had worked as a gardener for the Emperor of Russia in St. Petersburg. These he used to breed new varieties. Myatt's Victoria was introduced around 1838 and named in honor of Queen Victoria.
+        zones:
+          - 2
+          - 9
+        habit:
+          form: forb
+          shape: spreading
+          rate: vigorous
+          height: 0.75
+          spread: 0.8
+        pollinators: self-pollinating
+        bearing:
+          seed: 3
+          crown: 2
+        soil:
+          types:
+            - loamy
+          drainage: well-drained
+          ph:
+            - 5.5
+            - 6.5
+        light:
+          type:
+            - part sun
+            - full sun
+        dates:
+          bud:
+            color: '#3f8634'
+            range:
+              - 1 Feb
+              - 25 Feb
+          bloom:
+            color: '#efeee0'
+            range:
+              - 15 Apr
+              - 15 Jun
+          harvest:
+            color: '#b6c369'
+            range:
+              - 15 Apr
+              - 15 Jun
   - name: Strawberry
-    description: >
+    description: |
       Strawberry plants are small forbs with a crown that grows shoots for
       leaves, flowers and fruit. The strawberry itself is an aggregate accessory
       fruit and what most people consider the "seeds" on the outside of the
@@ -952,9 +1423,7 @@ categories:
       variety of colors from red to deep red, yellow and white. Production of
       berries depends on the type: june-bearing, everbearing, or day-neutral.
 
-
       ![Strawberry varieties](./strawberry-types.jpg)
-
 
       June bearing strawberries produce one large crop in June. The rest of the
       year they do not produce berries. Everbearing varieties produce two main
@@ -964,7 +1433,6 @@ categories:
       the main difference is how spread out the production is. June-bearing
       types can be great for preserves, while day-neutral types are good for a
       constant supply of berries.
-
 
       Strawberries are excellent eaten fresh when fully ripe and make fantastic
       jams and smoothies.

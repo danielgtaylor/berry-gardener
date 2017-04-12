@@ -20,8 +20,12 @@ include mixins.jade
       +PropertyColumn('Propagation', Object.keys(cultivar.bearing).sort().join(', '))
       +PropertyColumn('Soil', cultivar.soil.drainage + ' ' + cultivar.soil.types.join(' to ') + ' (pH ' + cultivar.soil.ph.join(' - ') + ')')
       +MarkdownPropertyColumn('History', cultivar.description.history)
-      +MarkdownPropertyColumn('Flowers', cultivar.description.flower)
-      +MarkdownPropertyColumn('Fruit', cultivar.description.fruit)
+      if cultivar.description.stalk
+        +MarkdownPropertyColumn('Stalks', cultivar.description.stalk)
+      if cultivar.description.flowers
+        +MarkdownPropertyColumn('Flowers', cultivar.description.flower)
+      if cultivar.description.fruit
+        +MarkdownPropertyColumn('Fruit', cultivar.description.fruit)
     div(style="margin-top: -12px")
-      span.property: label Calendar
+      span.property: label Calendar for Seattle, WA (Maritime Zone 8)
       +CultivarCalendar(cultivar)
